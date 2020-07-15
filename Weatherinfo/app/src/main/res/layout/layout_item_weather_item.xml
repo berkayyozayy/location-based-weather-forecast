@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/temp_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/circular_view"
+        android:gravity="center"
+        android:text="Tue"
+        android:textColor="@android:color/white"
+        android:textSize="13sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/temp_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temp_day"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:text="32c"
+        android:textColor="@android:color/black"
+        android:textSize="16sp">
+
+    </TextView>
+
+</RelativeLayout>
